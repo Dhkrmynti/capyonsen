@@ -10,7 +10,7 @@ Vocabulary: the bath (board) · the yuzu (No. 1) · hot pool / warm pool (the tw
 
 UI: flat illustration, no 3D. A noren over a Fuji mural, wood, tile, water, coal. Dela Gothic One, Zen Kaku Gothic New, DM Mono. Three scroll transitions: the noren lifts and the water rises over the doorway; the fees running down the drain and along the pipe past the two valves in the boiler room; paper doors sliding open on the house rules. See `DESIGN.md`.
 
-Name and ticker live in `src/lib/brand.ts` (plus the engine logs, `index.html`, `public/favicon.svg`). The page is in `src/onsen/`. `lobby.html`, `city.html` and `brawl.html` are older prototypes and still show the ape and rabbit worlds. `scripts/`, `DEPLOY-VPS.md`, `public/terms.html` and `public/privacy.html` still name the earlier domain and X handle; nothing is deployed for this lore.
+Name and ticker live in `src/lib/brand.ts` (plus the engine logs, `index.html`, `public/favicon.svg`). The page is in `src/onsen/`. `lobby.html`, `city.html` and `brawl.html` are older prototypes and still show the ape and rabbit worlds. `scripts/`, `DEPLOY-VPS.md`, `public/terms.html` and `public/privacy.html` still name the earlier domain and X handle; nothing is deployed for this lore. The planned domain (capyonsen.fun) and X handle (@capyonsen) are in `konten-x/caption.md` with the launch posts; neither is registered yet.
 
 ---
 

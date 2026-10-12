@@ -1,4 +1,6 @@
 import { Composition, Still } from "remotion";
+import { ONBanner, ONGif, ONGifYuzu, ONHookCold, ONHookYuzu, ONLogo, ONPostAttendant, ONPostBoiler, ONPostEmpty, ONPostPools, ONPostRules, ON_GIF_LENGTH, ON_YUZU_LENGTH } from "./ONStills";
+import { ONExplainer, ON_EXPLAINER_LENGTH } from "./ONExplainer";
 import { HKBanner, HKGif, HKLogo, HKPostBoard, HKPostEmpty, HKPostRules, HKPostWho, HKHookPaper, HKHookCore, HKHookTen, HK_GIF_LENGTH } from "./HKStills";
 import { BURN_DEFAULTS, HKBurnNews, HKHookHandle, HKNameTag, HKXFeature } from "./HKHooks4";
 import { HKBoardingPass, HKCycleFeature, HKForecast, HKMisclick, HKPayslip, PAYSLIP_DEFAULTS, HKRewardNews, REWARD_DEFAULTS } from "./HKHooks3";
@@ -34,6 +36,18 @@ import { HLSimulation, HL_SIM_LENGTH } from "./HLSimulation";
 export function RemotionRoot() {
   return (
     <>
+      <Still id="ONLogo" component={ONLogo} width={1080} height={1080} />
+      <Still id="ONBanner" component={ONBanner} width={1500} height={500} />
+      <Still id="ONPostRules" component={ONPostRules} width={1600} height={900} />
+      <Still id="ONPostEmpty" component={ONPostEmpty} width={1600} height={900} />
+      <Still id="ONPostPools" component={ONPostPools} width={1600} height={900} />
+      <Still id="ONPostBoiler" component={ONPostBoiler} width={1600} height={900} />
+      <Still id="ONPostAttendant" component={ONPostAttendant} width={1600} height={900} />
+      <Still id="ONHookCold" component={ONHookCold} width={1600} height={900} />
+      <Still id="ONHookYuzu" component={ONHookYuzu} width={1600} height={900} />
+      <Composition id="ONGif" component={ONGif} width={720} height={720} fps={30} durationInFrames={ON_GIF_LENGTH} />
+      <Composition id="ONGifYuzu" component={ONGifYuzu} width={720} height={720} fps={30} durationInFrames={ON_YUZU_LENGTH} />
+      <Composition id="ONExplainer" component={ONExplainer} width={1920} height={1080} fps={30} durationInFrames={ON_EXPLAINER_LENGTH} />
       <Still id="HKXFeature" component={HKXFeature} width={1600} height={900} />
       <Still id="HKBurnNews" component={HKBurnNews} width={1600} height={900} defaultProps={BURN_DEFAULTS} />
       <Still id="HKNameTag" component={HKNameTag} width={1600} height={900} />

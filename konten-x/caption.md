@@ -1,197 +1,265 @@
-# Hawking ($HAWK): konten X
+# Capy Onsen ($ONSEN): konten X
 
 | File | Untuk |
 |---|---|
-| `logo-x.png` | Logo token (1080×1080): maskot hawk astronot dengan cincin hazard, pas untuk crop bulat. Dipakai di Pons dan foto profil X |
-| `banner-x.png` | Header (1500×500; teks di tengah, tidak tertutup foto profil) |
-| `post-0-the-core-is-unclaimed.png` | Post 0: kondisi sekarang, No. 1 (the core) masih kosong |
-| `post-0b-who-reaches-the-core-first.png` | Post 0b: "Who reaches the core first?", ajakan siklus pertama |
-| `hook-1-paper-hands-get-spaghettified.png` | Hook: "Paper hands get spaghettified." |
-| `hook-2-out-hold-no-1-take-the-core.png` | Hook: "Out-hold No. 1. Take the core." |
-| `hook-3-ten-doses-every-emission.png` | Hook: "10 doses. Every emission. Are you on the board?" |
-| `post-1-how-hawking-works.mp4` | Post 1: video penjelasan (core, radiation level, 4 langkah, spaghettified) |
-| `post-2-tutorial-name-astronaut.mp4` | Post 2: tutorial nama + avatar astronot |
-| `post-3-the-exposure-board.png` | Post 3: exposure board (top 10, red zone & amber zone) |
-| `post-4-safety-rules.png` | Post 4: aturan sebagai rambu ("Safety rules") |
-| `post-5-fee-simulation.mp4` | Post 5: simulasi fee berjalan dan berulang |
-| `gif-new-core.gif` | GIF: holder menyalip No. 1 dan mengambil core ("AT THE CORE") |
+| `logo-x.png` | Foto profil X dan logo token di Pons (1080×1080, aman untuk crop bulat) |
+| `banner-x.png` | Header X (1500×500, kiri bawah dikosongkan untuk foto profil) |
+| `teaser-the-bath-is-empty.png` | Sebelum launch: sepuluh tempat masih kosong |
+| `post-1-how-capy-onsen-works.mp4` | Post 1, video penjelasan (di-pin) |
+| `post-2-the-bath-is-open.gif` | Post 2, GIF dengan CA |
+| `post-3-house-rules.png` | Post 3, empat aturan |
+| `post-4-two-pools.png` | Post 4, hot pool dan warm pool |
+| `post-5-where-the-fees-go.png` | Post 5, alur fee: reward lalu treasury |
+| `post-6-the-attendant.png` | Post 6, wallet dev |
+| `hook-1-sell-once-out-in-the-cold.png` | Hook: jual sekali, keluar selamanya |
+| `hook-2-who-wears-the-yuzu.png` | Hook: siapa No. 1 |
+| `gif-the-yuzu-moved.gif` | GIF: No. 1 disalip, yuzu pindah kepala |
 
-`<CA>` diganti alamat kontrak setelah launch di Pons. Situs: **https://hawkings.fun**
+Semua gambar dan video dirender dari `remotion-x` (`sh render-onsen.sh`). Capybara di dalamnya ilustrasi, bukan data holder asli.
 
----
+`<CA>` diganti alamat kontrak setelah launch di Pons.
 
-## Logo
+## Domain
 
-Maskot orisinal: burung hawk berhelm astronot (plesetan "Hawk-ing"), bukan wajah orang sungguhan.
+Pilihan pertama: **capyonsen.fun**. Sama dengan nama proyek, gampang diketik, dan satu pola dengan situs sebelumnya (`pepads.fun`, `hawkings.fun`). Dicek lewat RDAP pada 12 Okt 2026: belum terdaftar.
 
-## Nama & bio
+Cadangan yang juga belum terdaftar: `capyonsen.xyz`, `capyonsen.lol`, `capyonsen.club`. Yang sudah diambil orang: `capyonsen.com`, `capyonsen.app`, `onsen.fun`.
 
-**Akun:** `@hawkingrh` (https://x.com/hawkingrh)
-**Nama tampilan:** `Hawking $HAWK`  **Website:** `hawkings.fun`
+Cek sekali lagi di registrar sebelum bayar, karena RDAP tidak menampilkan harga premium.
 
-Pilih satu bio:
+## Akun X
 
-1. ⚠️ Contained black hole on Robinhood Chain. The ten biggest $HAWK holders sit nearest the core and get paid in ETH. Sell once and you're spaghettified.
-2. Hawking radiation, paid in ETH. Red zone No. 1-5 share 0.014, amber zone No. 6-10 share 0.006 of every 0.02 in fees. Pons.
-3. Hold closer. Ten on the board. One at the core. Sellers get spaghettified.
+**Handle:** `@capyonsen`. Kalau sudah dipakai: `@capyonsenrh` (pola `@pepadsrh`, `@hawkingrh`), lalu `@capy_onsen`. Ketersediaan handle belum dicek, X tidak bisa dicek dari sini.
 
----
+**Nama tampilan:** `Capy Onsen $ONSEN`
 
-## Post 0: core masih kosong (teaser / saat launch)
+**Website:** `capyonsen.fun`
 
-**File:** `post-0-the-core-is-unclaimed.png`
+**Lokasi:** `the bath`
 
-> ⚠️ The core is unclaimed.
->
-> Hold the most $HAWK and you sit at the core.
-> The first 0.02 ETH emission goes to the ten nearest.
->
-> hawkings.fun
+**Bio**, pilih satu:
 
-**Alt text:** A black poster: "At the core · No. 1" above the word "Unclaimed.", a yellow-and-white warning placard with an empty radiation-level bar reading 0.0000 / 0.02 ETH, and a glowing black hole circled by a yellow-and-black hazard-striped ring on the right.
+1. A capybara bathhouse on Robinhood Chain. The ten biggest $ONSEN holders soak and get paid in ETH from trading fees. Sell once and you're out in the cold.
+2. Stay in the bath. Ten spots in the water, paid in ETH. No. 1 wears the yuzu. Sell once and you're out for good. $ONSEN on Robinhood Chain.
+3. Ten capybaras in the water. One yuzu. Sellers wait outside. $ONSEN
 
----
-
-## Post 0b: siapa yang sampai ke core duluan?
-
-**File:** `post-0b-who-reaches-the-core-first.png`
-
-> Who reaches the core first? ⚠️
->
-> Cycle one is open. The biggest $HAWK holder takes the core,
-> and the ten nearest split the first 0.02 ETH emission.
->
-> All ten zones are open. Take one.
->
-> hawkings.fun
-> CA: <CA>
-
-**Alt text:** A black poster asking "Who reaches the core first?" beside ten dashed rings, red inside and amber outside, around a black circle with a yellow question mark, all inside a yellow-and-black striped ring, captioned "All ten zones open".
-
----
-
-## Post 1: video penjelasan (pin post ini)
-
-**File:** `post-1-how-hawking-works.mp4`
-
-> Hawking ($HAWK) in one minute. ⚠️
->
-> The ten biggest holders sit nearest the core. Out-hold No. 1 and you take the core, live.
->
-> Every trade charges the radiation level. The engine runs four steps:
-> 1. The Emission: 0.02 ETH to the ten nearest (red zone No. 1-5 split 0.014, amber zone No. 6-10 split 0.006)
-> 2. Containment Fund: 0.025 ETH to the treasury
-> 3. Evaporation: 0.01 ETH buys $HAWK back and burns it
-> 4. Containment Fund again: 0.025 ETH
->
-> One sale and you're spaghettified. For good.
->
-> hawkings.fun
-
-**Alt text:** Animated explainer in yellow-and-black hazard style: a contained black hole, holders on red rings where the biggest moves to the core, a radiation-level dial filling with trade fees, four steps (The Emission, Containment Fund, Evaporation, Containment Fund), and a body stretched into a thread as it falls in.
-
----
-
-## Post 2: video tutorial
-
-**File:** `post-2-tutorial-name-astronaut.mp4`
-
-> Put your name on the board. 🧑‍🚀
->
-> 1. hawkings.fun → Connect
-> 2. Your dosimeter → "Set your name & astronaut"
-> 3. Pick your astronaut (skin, suit, kit, backdrop), type a name, Sign & stamp
->
-> Your name and astronaut show on your dosimeter and on the exposure board.
->
-> Free to sign. Moves no funds.
-
-**Alt text:** Screen recording of hawkings.fun: connecting a wallet, choosing a cartoon astronaut portrait with four dials, typing the name "Core Walker", signing, then seeing it on the dosimeter card and on the exposure board.
-
----
-
-## Post 3: exposure board
-
-**File:** `post-3-the-exposure-board.png`
-
-> Ten on site. One at the core.
->
-> The exposure board is live: buy and you're on it in seconds, ranked by balance.
-> Red zone No. 1-5 split 0.014 ETH, amber zone No. 6-10 split 0.006 ETH, every 0.02 ETH of fees.
->
-> hawkings.fun
-
-**Alt text:** The exposure board from hawkings.fun: a yellow "At the core · No. 01" plate, then the red zone list (No. 2-5) and the amber zone list (No. 6-10) with each holder's astronaut portrait, balance and next dose in ETH.
-
----
-
-## Post 4: aturan
-
-**File:** `post-4-safety-rules.png`
-
-> Safety rules: ⚠️
-> 🔵 Hold 100,000 $HAWK → you're on site.
-> ⚠️ Biggest holder → sits at the core.
-> 🟩 The top ten → share every emission.
-> ⛔ No selling → spaghettified. For good.
-
-**Alt text:** A black poster titled "Safety rules" with four sign cards: a blue mandatory sign "Hold 100,000 $HAWK to enter the site", a yellow warning triangle "Biggest holder sits at the core", a green safe sign "The top ten share every emission", and a red prohibition card "No selling. One sale and you are spaghettified. For good."
-
----
-
-## Post 5: simulasi fee
-
-**File:** `post-5-fee-simulation.mp4`
-
-> Watch the fees move.
->
-> The radiation level fills from 0 → at 0.02 ETH it's emitted to the ten nearest → back to 0.
-> Then 0.025 to the Containment Fund, 0.01 bought back and burned, 0.025 again. And again.
->
-> hawkings.fun
-
-**Alt text:** Simulation of the Hawking engine: a radiation-level dial filling with trade fees, payments flying to the ten nearest, then to the treasury, then to the buyback and burn, while totals and an incident log update; the second cycle runs at double speed.
-
----
-
-## Hook posts (PNG)
-
-**`hook-1-paper-hands-get-spaghettified.png`**
-> Paper hands get spaghettified.
-> One sale and you're off the board. For good.
-> hawkings.fun
-
-**`hook-2-out-hold-no-1-take-the-core.png`**
-> Out-hold No. 1. Take the core. ⚠️
-> The biggest $HAWK holder sits at the core, live. Biggest dose of every emission.
-> hawkings.fun
-
-**`hook-3-ten-doses-every-emission.png`**
-> 10 doses. Every emission. Are you on the board?
-> Every 0.02 ETH in fees goes to the ten biggest holders. Ranked by balance, live.
-> hawkings.fun
-
-Pakai hook di sela-sela post utama, 1 per hari, atau sebagai quote dari post lain.
-
----
-
-## GIF: balasan / quote
-
-**File:** `gif-new-core.gif`
-
-> New core. ⚠️
-
-**Alt text:** Two bodies circle a black hole inside a striped containment ring; the yellow one grows, moves past the white one onto the innermost ring, and an "AT THE CORE" stamp appears.
-
----
+Saranku nomor 1: orang yang baru mampir langsung tahu ini apa dan dapat apa.
 
 ## Urutan posting
 
-1. Sebelum launch: pasang foto profil, header, bio, lalu **Post 1** (pin).
-2. Saat launch: **Post 0b** dengan CA. Lalu quote Post 1: *"$HAWK is live on Pons. CA: <CA> · hawkings.fun"*
-3. +2-3 jam: **Post 2** (tutorial).
-4. Hari berikutnya: **Post 3**, lalu **Post 4**.
-5. Setelah emission pertama: **Post 5**, quote dengan link tx asli dari Incident log.
-6. Pakai **GIF** setiap kali No. 1 berganti.
+1. Sebelum launch: teaser.
+2. Saat launch: post 1 (video), langsung di-pin. Post 2 (GIF dengan CA) beberapa menit sesudahnya, lalu balas post 1 dengan CA juga.
+3. Jam pertama: post 3 (aturan).
+4. Hari pertama, jeda 2 sampai 3 jam: post 4, post 5, hook 1.
+5. Hari kedua: post 6, hook 2, lalu post data asli (bagian paling bawah).
 
-Catatan: nama holder, saldo dan angka di video/gambar adalah ilustrasi. $HAWK adalah memecoin tanpa janji nilai.
+## Teaser, sebelum launch
+
+**File:** `teaser-the-bath-is-empty.png`
+
+```
+The bath is empty.
+
+Ten spots in the water, none taken. The first wallet holding 100,000 $ONSEN gets in and gets the yuzu.
+
+Opening soon on Robinhood Chain.
+capyonsen.fun
+```
+
+**Alt text:** A bathhouse doorway with an indigo curtain reading "The bath is empty." Below it, a pool with ten dashed rings numbered 1 to 10 and a thermometer at 0.0000 / 0.02 ETH.
+
+## Post 1: video penjelasan (pin)
+
+**File:** `post-1-how-capy-onsen-works.mp4` (1920×1080, 28 detik, tanpa suara)
+
+```
+Capy Onsen is a bathhouse run by capybaras.
+
+The ten biggest $ONSEN holders sit in the water. Every 0.02 ETH of trading fees is paid to them, in ETH. No. 1 wears the yuzu.
+
+Sell once and you're out in the cold, for good.
+
+capyonsen.fun
+```
+
+**Alt text:** Animated explainer. A curtain drops reading "Stay in the bath." Ten cartoon capybaras surface in a hot spring and a yuzu lands on the one in front. Two swap places and the yuzu changes heads. A boiler room shows two steps, Reward 0.02 ETH and Treasury 0.025 ETH. One capybara jumps out and lands in the snow.
+
+## Post 2: GIF dengan CA
+
+**File:** `post-2-the-bath-is-open.gif`
+
+```
+The bath is open.
+
+$ONSEN is live on Robinhood Chain, launched on Pons.
+
+CA: <CA>
+
+Hold 100,000 to be let in. The ten biggest holders get the water and the ETH.
+
+capyonsen.fun
+```
+
+**Alt text:** Ten cartoon capybaras pop up out of a hot spring one by one in front of Mount Fuji. A yuzu drops onto the head of the one in front and a sign reads "The bath is open."
+
+## Post 3: aturan
+
+**File:** `post-3-house-rules.png`
+
+```
+House rules.
+
+1. Hold 100,000 $ONSEN to be let in.
+2. The biggest holder wears the yuzu.
+3. The ten in the water share every reward, in ETH.
+4. Sell once and you're out in the cold. For good.
+
+Moving between your own wallets is not a sale.
+```
+
+**Alt text:** Four wooden tags hanging on a rail under the title "House rules". The fourth is red: "No getting out. Sell once and you are out in the cold. For good."
+
+## Post 4: dua kolam
+
+**File:** `post-4-two-pools.png`
+
+```
+Ten in the water, two pools.
+
+Hot pool, No. 1-5: share 0.014 ETH.
+Warm pool, No. 6-10: share 0.006 ETH.
+
+That's every 0.02 ETH of trading fees, split by balance inside each pool. It lands in your wallet. There is no claim button.
+
+capyonsen.fun
+```
+
+**Alt text:** Ten capybaras soaking, five in front and five behind, the front one with a yuzu on its head. Labels: "Hot pool, No. 1-5, share 0.014 ETH" and "Warm pool, No. 6-10, share 0.006 ETH".
+
+## Post 5: ke mana fee pergi
+
+**File:** `post-5-where-the-fees-go.png`
+
+```
+Where the fees go.
+
+Step 1, Reward: 0.02 ETH to the ten in the water.
+Step 2, Treasury: 0.025 ETH to the treasury wallet.
+Then round again.
+
+Over a full loop that's 44% to holders and 56% to the treasury. No buyback, no burn. Every transfer is in the ledger.
+```
+
+**Alt text:** A dark boiler room with a yellow pipe and two boxes: "Step 1, Reward, 0.02 ETH" and "Step 2, Treasury, 0.025 ETH". Below: "No buyback and no burn: the engine never buys, sells or destroys $ONSEN."
+
+Post ini sengaja menyebut angka treasury apa adanya. Pembeli yang teliti akan mencarinya sendiri, jadi lebih baik mereka membacanya dari akun resmi.
+
+## Post 6: wallet dev
+
+**File:** `post-6-the-attendant.png`
+
+```
+The dev wallet is the attendant.
+
+It stands at the counter on the front page, where anyone can click it. It is never in the water and never paid a reward.
+
+Rewards only go to the ten biggest holders who never sold.
+```
+
+**Alt text:** A capybara in a headband and glasses behind a wooden counter, next to the words "The attendant never gets in."
+
+## Hook 1: jual sekali
+
+**File:** `hook-1-sell-once-out-in-the-cold.png`
+
+```
+You can't buy your way back in.
+
+A wallet that sells $ONSEN once is out of the water for good. Buy ten times more afterwards and it still gets 0 ETH.
+
+The capybaras that stay are the ones getting paid.
+```
+
+**Alt text:** A startled capybara wrapped in a towel standing in the snow at night. Through a small window behind it, two capybaras are still soaking. Text: "Sell once. Out in the cold."
+
+## Hook 2: siapa pakai yuzu
+
+**File:** `hook-2-who-wears-the-yuzu.png`
+
+```
+Who wears the yuzu?
+
+The biggest $ONSEN holder does. Hold more than No. 1 and it moves to your head while everyone watches.
+
+Check the bath: capyonsen.fun
+```
+
+**Alt text:** A yellow poster asking "Who wears the yuzu?" with a yuzu floating over the dashed outline of a capybara head with a question mark inside.
+
+## GIF: yuzu pindah kepala
+
+**File:** `gif-the-yuzu-moved.gif`. Dipakai saat No. 1 benar-benar disalip. Isi nama atau alamat dari halaman live.
+
+```
+The yuzu moved.
+
+<new No. 1> now holds more $ONSEN than <old No. 1>. New head, same yuzu.
+
+Who's next? capyonsen.fun
+```
+
+**Alt text:** Two capybaras wade past each other in a hot spring and a yuzu hops from one head to the other. A sign reads "The yuzu moved."
+
+## Post 7: pilih capybara-mu (rekam layar sendiri)
+
+Belum ada medianya, karena harus direkam dari situs yang sudah live. Rekam 15 sampai 20 detik: Connect, buka bath tag, masuk changing room, ganti coat dan topi, ketik nama, tanda tangan.
+
+```
+Pick your capybara.
+
+1. capyonsen.fun, connect your wallet
+2. Open your bath tag, go to the changing room
+3. Choose a coat, something for the head, a wall, and a name
+
+It shows on your tag and in the bath. Signing is free and moves no funds.
+```
+
+## Post data asli, sesudah launch
+
+Jenis post ini biasanya paling menarik pembeli karena isinya kejadian nyata. Angkanya wajib diambil dari halaman live atau `/api/status`, jangan dari data demo. Sertakan link tx.
+
+Reward pertama dibayar:
+
+```
+Reward #1 is paid.
+
+0.02 ETH went to <n> wallets in the water. No. 1 got <x> ETH.
+
+Nobody claimed anything. The engine sent it.
+
+tx: <link>
+```
+
+Ada yang jual:
+
+```
+<n> wallets got out so far.
+
+The first one sold <m> minutes after launch. It's out of the water for good.
+
+<k> spots are still open. capyonsen.fun
+```
+
+Tempat masih kosong:
+
+```
+<k> of 10 spots in the water are still empty.
+
+Right now <n> wallets split every reward. 100,000 $ONSEN gets you let in.
+
+CA: <CA>
+```
+
+## Yang tidak boleh ditulis
+
+Jangan pakai kata passive income, APY, yield, dividend, guaranteed, atau janji harga. Reward berasal dari fee trading: kalau tidak ada yang trading, tidak ada reward. Caption di atas sudah mengikuti aturan ini dan aturan `DESIGN.md` (tanpa emoji, tanpa strip panjang).
